@@ -1,0 +1,27 @@
+{
+  "name": "typescriptcourse",
+  "version": "1.0.0",
+  "description": "Sample workspace for teaching TypeScript",
+  "homepage": "https://github.com/sidney13/TypeScriptCourse#readme",
+  "bugs": {
+    "url": "https://github.com/sidney13/TypeScriptCourse/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidney13/TypeScriptCourse.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/Example.ts --keep-names --bundle --outfile=public/lib/Example.js --log-limit=0  --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.2"
+  }
+}
